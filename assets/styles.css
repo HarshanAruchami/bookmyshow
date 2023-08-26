@@ -1,0 +1,138 @@
+/* ===================
+    TYPOGRAPHY
+   ===================*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Backgrounf Image */
+.btn-design {
+    background:
+        linear-gradient(to right, #252525 40%, rgba(0, 0, 0, 0) 89%, rgb(0, 0, 0) 100%),
+        url('./images/jailer-bg.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 25px 0 20px 0;
+    background-color: #252525;
+}
+
+#img-card {
+    background-color: black;
+}
+
+p {
+    margin: 0%;
+}
+
+.movie-name p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#movie-ratings p:nth-child(2) {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#rate-row {
+    width: 52.5%;
+}
+
+#rate-row .card {
+    background-color: #333333;
+    border-radius: 10px !important;
+}
+
+.rate-btn a {
+    background-color: white;
+    color: #333333;
+    padding: .6em 1em;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+#rate-col-one p:first-child {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#rate-col-one p:last-child {
+    font-size: 16px;
+    font-weight: 300;
+    color: #cccccc;
+}
+
+.lang {
+    padding: .2em .5em;
+    background-color: #e5e5e5;
+    color: black;
+}
+
+.lang a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.dimension a {
+    padding: .33em .5em;
+    background-color: #e5e5e5;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dimension a:hover,
+.lang a:hover,
+#certificate a:hover {
+    text-decoration: underline;
+}
+
+.dimension a,
+.lang {
+    border-radius: 3px;
+}
+
+#certificate a,
+#certificate {
+    font-size: 16px;
+    color: white !important;
+    text-decoration: none;
+
+}
+
+#book-ticket a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1em 3.6em;
+    background-color: #f84464;
+    border-radius: 10px;
+}
+
+i {
+    color: #ee5c77;
+    font-size: x-large;
+}
+
+@media only screen and (max-width:991px) {
+
+    #rate-row {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1400px) {
+    #film-contents {
+        width: 50%;
+        margin-top: 0% !important;
+    }
+
+    #rate-row {
+        width: 100%;
+    }
+}
