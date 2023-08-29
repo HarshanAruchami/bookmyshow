@@ -1,0 +1,44 @@
+/* CSS for Landing Page */
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  nav {
+    float: right;
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  /* Main */
+  main {
+    padding: 20px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 16px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  /* Footer */
+  footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
